@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FArbucks - Events</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/manifest/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/manifest/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/manifest/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/manifest/site.webmanifest" />
+
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/events.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="home.html"><img src="./assets/logo.svg" alt="logo" />
+        FARBUCKS
+      </a>
+    </div>
+    <input type="checkbox" id="toggler" />
+    <label for="toggler">☰</label>
+    <div class="menu">
+      <ul class="list">
+        <li class="item"><a href="home.html">Home</a></li>
+        <li class="item"><a href="coffees.html">Coffee</a></li>
+        <li class="item"><a href="events.html">Events</a></li>
+        <li class="item"><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    <a href="register.html" class="btn btn-primary">Become a Member</a>
+  </nav>
+
+  <main class="container">
+    <div class="events">Events</div>
+
+    <div class="searchcontainer">
+      <div class="searchbar">
+        <div class="search-menu-container">
+          <a href="#" class="lens"><img src="./assets/svg/icon_lens.svg" alt="lens" /></a>
+          <input type="text" class="searchform" id="search_form" placeholder="Search events" />
+          <a href="#" class="close"><img src="./assets/svg/icon_cross.svg" /></a>
+        </div>
+        <div class="search-menu-container">
+          <a href="#" class="menu-content"><img src="./assets/svg/line.svg" /></a>
+          <a href="#" class="menu-content"><img src="./assets/svg/icon_calendar.svg" alt="calendar" /></a>
+          <a href="#" class="menu-text-button">Date</a>
+        </div>
+        <div class="search-menu-container">
+          <a href="#" class="menu-content"><img src="./assets/svg/line.svg" /></a>
+          <a href="#" class="menu-content"><img src="./assets/svg/icon_location.svg" alt="location" /></a>
+          <a href="#" class="menu-text-button">Location</a>
+        </div>
+        <div class="search-menu-container">
+          <a href="#" class="menu-content"><img src="./assets/svg/line.svg" /></a>
+          <a href="#" class="menu-content"><img src="./assets/svg/icon_category.svg" alt="category" /></a>
+          <a href="#" class="menu-text-button">Category</a>
+        </div>
+      </div>
+      <div class="search-button">
+        <a href="#">Search</a>
+      </div>
+    </div>
+
+    <div class="all_event_container">
+      <div class="event_container">
+        <a href="#" class="event_pic"><img src="./assets/svg/event_1.svg" /></a>
+        <div class="desc_container">
+          <p class="event_title">MONDAY MADNESS</p>
+          <p class="event_desc">
+            Buy 2 get 1 free on every Monday using BCA Debit/Credit card
+            during the event period.
+          </p>
+          <a href="#" class="event_line"><img src="./assets/svg/green_line.svg" /></a>
+          <div class="event_detail">
+            <p class="event_date">(Jan 21st 2022 - Aug 21st 2022)</p>
+            <div class="event_detail_action">
+              <a href="#" class="event_icon"><img src="./assets/svg/icon_share.svg" /></a>
+              <a href="#" class="pin_icon"><img src="./assets/svg/icon_pin.svg" /></a>
+              <a href="#detail-modal" class="details_button">Check details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="event_container">
+        <a href="#" class="event_pic"><img src="./assets/svg/event_2.svg" /></a>
+        <div class="desc_container">
+          <p class="event_title">SHOPEE TREAT</p>
+          <p class="event_desc">
+            Get up to 50% price discount using ShopeePay with minimum a
+            purchase of Rp 50.000,00- during the event period.
+          </p>
+          <a href="#" class="event_line"><img src="./assets/svg/green_line.svg" /></a>
+          <div class="event_detail">
+            <p class="event_date">(Jun 25th 2022 - Jun 30th 2022)</p>
+            <div class="event_detail_action">
+              <a href="#" class="event_icon"><img src="./assets/svg/icon_share.svg" /></a>
+              <a href="#" class="pin_icon"><img src="./assets/svg/icon_pin.svg" /></a>
+              <a href="#detail-modal" class="details_button">Check details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="event_container">
+        <a href="#" class="event_pic"><img src="./assets/svg/event_3.svg" /></a>
+        <div class="desc_container">
+          <p class="event_title">PLASTIC FREE DAY</p>
+          <p class="event_desc">
+            Bring any reuseable cup to get a free cup of brewed coffee from us
+            during national plastic bag free day.
+          </p>
+          <a href="#" class="event_line"><img src="./assets/svg/green_line.svg" /></a>
+          <div class="event_detail">
+            <p class="event_date">(Jul 4th 2022)</p>
+            <div class="event_detail_action">
+              <a href="#" class="event_icon"><img src="./assets/svg/icon_share.svg" /></a>
+              <a href="#" class="pin_icon"><img src="./assets/svg/icon_pin.svg" /></a>
+              <a href="#detail-modal" class="details_button">Check details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="event_container">
+        <a href="#" class="event_pic"><img src="./assets/svg/event_4.svg" /></a>
+        <div class="desc_container">
+          <p class="event_title">OVO CASHBACK</p>
+          <p class="event_desc">
+            Get up to 30% cashback using OVO with minimum purchase of Rp
+            20.000,00- during the event period.
+          </p>
+          <a href="#" class="event_line"><img src="./assets/svg/green_line.svg" /></a>
+          <div class="event_detail">
+            <p class="event_date">(Jul 5th 2022 - Jul 21st 2022)</p>
+            <div class="event_detail_action">
+              <a href="#" class="event_icon"><img src="./assets/svg/icon_share.svg" /></a>
+              <a href="#" class="pin_icon"><img src="./assets/svg/icon_pin.svg" /></a>
+              <a href="#detail-modal" class="details_button">Check details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="event_container">
+        <a href="#" class="event_pic"><img src="./assets/svg/event_5.svg" /></a>
+        <div class="desc_container">
+          <p class="event_title">READY. SET. SALE!</p>
+          <p class="event_desc">
+            Get up to 50% tumblr price discount after making a minimum payment
+            of Rp 350.000,00 during the event period.
+          </p>
+          <a href="#" class="event_line"><img src="./assets/svg/green_line.svg" /></a>
+          <div class="event_detail">
+            <p class="event_date">(Jul 6th 2022 - Jul 12th 2022)</p>
+            <div class="event_detail_action">
+              <a href="#" class="event_icon"><img src="./assets/svg/icon_share.svg" /></a>
+              <a href="#" class="pin_icon"><img src="./assets/svg/icon_pin.svg" /></a>
+              <a href="#detail-modal" class="details_button">Check details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="end_event"><img src="./assets/svg/icon_dot.svg" /></div>
+    </div>
+  </main>
+
+  <div id="detail-modal" class="modal">
+    <div class="modal_content">
+      <h3>Terms and conditions:</h3>
+
+      <ul>
+        <li>Valid for all Starbucks Rewards active members.</li>
+        <li>
+          1 Reward of <b>30% off on selected beverage</b> will be added to
+          members’ account after make any transaction.
+        </li>
+        <li>
+          Any FREE Reward redemption (conversion of 100 Stars), activation /
+          Starbucks Card top-up does not count as a transaction.
+        </li>
+        <li>
+          The Reward is valid for 3 x 24 hours since issued and can only be
+          redeemed for
+          <b>1 Cocoa Cloud Macchiato / Salted Caramel Cloud
+            Macchiato&nbsp;(max. Venti size).
+          </b>
+        </li>
+        <li><b>Valid while stocks last. </b></li>
+        <li>Cannot be combined with any other promotion.</li>
+        <li>Promo period: 4 – 30 June 2022</li>
+      </ul>
+
+      <a href="#" class="modal_close">&times;</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="logo">
+      <a href="home.html"><img src="./assets/logo.svg" alt="logo" />
+        FARBUCKS
+      </a>
+    </div>
+    <div class="link">
+      <ul class="list">
+        <li class="item"><a href="about.html">About</a></li>
+        <li class="item"><a href="coffees.html">Coffees</a></li>
+        <li class="item"><a href="events.html">Events</a></li>
+        <li class="item"><a href="about.html#faq">FAQ</a></li>
+        <li class="item"><a href="about.html#faq">Careers</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com/Starbucks/">
+        <img src="./assets/svg/icon_facebook.svg" alt="facebook" />
+      </a>
+      <a href="https://www.instagram.com/starbucks/">
+        <img src="./assets/svg/icon_instagram.svg" alt="instagram" />
+      </a>
+      <a href="https://twitter.com/starbucks/"><img src="./assets/svg/icon_twitter.svg" alt="twitter" />
+      </a>
+      <a href="https://tiktok.com"><img src="./assets/svg/icon_tiktok.svg" alt="tiktok" />
+      </a>
+    </div>
+    <p class="copyright">© 2021 FARBUCKS. All rights reserved</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FArbucks - Register</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/manifest/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/manifest/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/manifest/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/manifest/site.webmanifest" />
+
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/register.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <a href="home.html"><img src="./assets/logo.svg" alt="logo" />
+        FARBUCKS
+      </a>
+    </div>
+    <input type="checkbox" id="toggler" />
+    <label for="toggler">☰</label>
+    <div class="menu">
+      <ul class="list">
+        <li class="item"><a href="home.html">Home</a></li>
+        <li class="item"><a href="coffees.html">Coffee</a></li>
+        <li class="item"><a href="events.html">Events</a></li>
+        <li class="item"><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    <a href="register.html" class="btn btn-primary">Become a Member</a>
+  </nav>
+
+  <main class="member_container">
+    <div class="banner_container">
+      <h2 class="banner_desc">Become a member and get all the benefits</h2>
+      <a href="#"><img src="./assets/svg/member_pic.svg" alt="banner" /></a>
+    </div>
+    <form action="#" class="member_form_container" id="member_form">
+      <h1 class="member_title">Sign Up</h1>
+      <h4 class="member_subtitle">Full Name</h4>
+      <input type="text" class="input_form" id="input_name" placeholder="Full Name" />
+      <div id="input_name_error" class="error"></div>
+      <h4 class="member_subtitle">Email</h4>
+      <input type="text" class="input_form" id="input_email" placeholder="Email" />
+      <div id="input_email_error" class="error"></div>
+      <h4 class="member_subtitle">Password</h4>
+      <input type="password" class="input_form" id="input_password" placeholder="Password" />
+      <div id="input_password_error" class="error"></div>
+      <h4 class="member_subtitle">Gender</h4>
+      <div class="member_gender">
+        <div class="gender_radio">
+          <input type="radio" class="input_radio" name="input_radio" id="input_male" />
+          <label for="input_male">Male</label>
+        </div>
+        <div class="gender_radio">
+          <input type="radio" class="input_radio" name="input_radio" id="input_female" />
+          <label for="input_female">Female</label>
+        </div>
+        <div class="gender_radio">
+          <input type="radio" class="input_radio" name="input_radio" id="input_unknown" />
+          <label for="input_unknown">Rather not say</label>
+        </div>
+      </div>
+      <h4 class="member_subtitle">Country</h4>
+      <select name="input_country" id="input_country" class="input_form">
+        <option selected disabled>Select country</option>
+        <option value="Brunei Darussalam">Brunei Darussalam</option>
+        <option value="Cambodia">Cambodia</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Laos">Laos</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Myanmar">Myanmar</option>
+        <option value="Philippines">Singapore</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Vietnam">Vietnam</option>
+      </select>
+      <div id="input_country_error" class="error"></div>
+      <h4 class="member_subtitle">Date of Birth</h4>
+      <input type="date" id="input_date" class="input_form" />
+      <div id="input_date_error" class="error"></div>
+      <div class="switch_button">
+        <label class="switch" for="promo_switch">
+          <input type="checkbox" class="promo_toggle" id="promo_switch" />
+          <div class="promo_fill"></div>
+        </label>
+        <label for="promo_switch">
+          Send me emails about promos and events
+        </label>
+      </div>
+      <div class="tos_container">
+        <input type="checkbox" class="check_box" id="tos_checkbox" />
+        <label for="tos_checkbox">
+          I understand and agree to the terms and conditions
+        </label>
+      </div>
+      <div id="input_tos_error" class="error"></div>
+      <input type="submit" value="Submit" class="btn btn-primary form_submit_btn" />
+    </form>
+  </main>
+
+  <footer>
+    <div class="logo">
+      <a href="home.html"><img src="./assets/logo.svg" alt="logo" />
+        FARBUCKS
+      </a>
+    </div>
+    <div class="link">
+      <ul class="list">
+        <li class="item"><a href="about.html">About</a></li>
+        <li class="item"><a href="coffees.html">Coffees</a></li>
+        <li class="item"><a href="events.html">Events</a></li>
+        <li class="item"><a href="about.html#faq">FAQ</a></li>
+        <li class="item"><a href="about.html#faq">Careers</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com/Starbucks/">
+        <img src="./assets/svg/icon_facebook.svg" alt="facebook" />
+      </a>
+      <a href="https://www.instagram.com/starbucks/">
+        <img src="./assets/svg/icon_instagram.svg" alt="instagram" />
+      </a>
+      <a href="https://twitter.com/starbucks/"><img src="./assets/svg/icon_twitter.svg" alt="twitter" />
+      </a>
+      <a href="https://tiktok.com"><img src="./assets/svg/icon_tiktok.svg" alt="tiktok" />
+      </a>
+    </div>
+    <p class="copyright">© 2021 FARBUCKS. All rights reserved</p>
+  </footer>
+
+  <script src="./js/register.js"></script>
+</body>
+
+</html>
